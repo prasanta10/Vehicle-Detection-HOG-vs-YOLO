@@ -27,7 +27,7 @@ This method represents the "classical" computer vision pipeline, which is a mult
 ### 2. ⚡ Modern Approach: YOLO (You Only Look Once)
 This method represents the modern "end-to-end" deep learning approach:
 
-1.  **Unified Model:** A single deep neural network (e.g., YOLOv5) processes the entire image in one pass.
+1.  **Unified Model:** A single deep neural network (e.g., YOLOv3) processes the entire image in one pass.
 2.  **Learned Features:** The network *learns* the most effective features for detection during training, rather than having them hand-crafted.
 3.  **Detection:** The model directly regresses bounding box coordinates and predicts class probabilities for all objects in the image grid simultaneously. This "single-shot" design makes it extremely fast.
 
@@ -44,7 +44,7 @@ To ensure a fair and comprehensive comparison, both models will be evaluated on 
 
 Our final analysis and a summary table of all results will be presented here.
 
-| Metric | HOG + SVM (Classical) | YOLOv5 (Modern) |
+| Metric | HOG + SVM (Classical) | YOLOv3 (Modern) |
 | :--- | :--- | :--- |
 | **mAP @ 0.5 IoU** | *TBD* | *TBD* |
 | **Precision** | *TBD* | *TBD* |
