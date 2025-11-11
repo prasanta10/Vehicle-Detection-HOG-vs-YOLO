@@ -1,0 +1,14 @@
+# This file tells YOLOv3 where to find our data
+
+# Paths to our data
+# (These paths are relative from inside the 'yolov3' folder)
+train: ../dataset/train/images
+val: ../dataset/val/images
+test: ../dataset/test/images
+
+# Number of classes
+nc: 1
+
+# Class names
+names:
+  - vehicle   
