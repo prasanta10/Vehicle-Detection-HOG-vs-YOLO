@@ -1,6 +1,6 @@
 # HOG+SVM vs. YOLO: A Comparative Study of Vehicle Detection
 
-This repository contains the code for our Diploma in Engineering project, performing a comparative analysis of a classical computer vision algorithm and a modern deep learning model for vehicle detection.
+This repository contains the code for the Digital Image Processing project, performing a comparative analysis of a classical computer vision algorithm and a modern deep learning model for vehicle detection.
 
 The goal is to analyze the trade-offs between the hand-crafted feature approach of **HOG (Histogram of Oriented Gradients) + SVM** and the end-to-end deep learning approach of **YOLO (You Only Look Once)**.
 
@@ -46,8 +46,8 @@ Our final analysis and a summary table of all results will be presented here.
 
 | Metric | HOG + SVM (Classical) | YOLOv3 (Modern) |
 | :--- | :--- | :--- |
-| **mAP @ 0.5 IoU** | *TBD* | *TBD* |
-| **Precision** | *TBD* | *TBD* |
-| **Recall** | *TBD* | *TBD* |
-| **Avg. Inference Time (ms)** | *TBD* | *TBD* |
-| **Speed (FPS)** | *TBD* | *TBD* |
+| **mAP @ 0.5 IoU** | 0.12 | 0.908 |
+| **Precision** | 0.15 | 0.96 |
+| **Recall** | 0.25 | 0.846 |
+| **Avg. Inference Time (ms)** |  2750.45 ms/image | 30 ms/image |
+| **Speed (FPS)** | 0.36 | 33 |
